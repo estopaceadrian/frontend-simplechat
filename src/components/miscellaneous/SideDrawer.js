@@ -83,7 +83,7 @@ function SideDrawer() {
       setSearchResult(data);
     } catch (error) {
       toast({
-        title: 'Error Occured!',
+        title: 'Error Occurred!',
         description: 'Failed to Load the Search Results',
         status: 'error',
         duration: 5000,
@@ -100,7 +100,7 @@ function SideDrawer() {
       setLoadingChat(true);
       const config = {
         headers: {
-          'Content-type': 'application/json',
+          'Content-Type': 'application/json',
           Authorization: `Bearer ${user.token}`,
         },
       };
